@@ -1,0 +1,74 @@
+span{
+  color: #FF0000;
+}
+
+.wrapper {
+  height: 97vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+}
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  max-width: 80%;
+  min-width: 100px;
+  min-height: 400px;
+  padding: 20px 40px;
+  border-radius: 6px;
+  box-shadow: 0px 8px 36px #222;
+  background-color: rgb(211,211,211);
+}
+.error {
+  color:#db2269;
+  font-size: 0.5em;
+  display: relative;
+}
+.submit {
+  min-width: 30%;
+  cursor: pointer;
+  margin-right: 0.25em;
+  margin-top: 0.5em;
+  padding: 	0.938em;
+  border: none;
+  border-radius: 4px;
+  background-color: #22223B;
+  color: #fefefe;
+}
+.submit:hover {
+  background-color: #4A4E69;
+  color: #fefefe;
+}
+
+label {
+  margin-bottom: 0.5em;
+  color: #444;
+  font-weight: lighter;
+}
+
+input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #d6d1d5;
+}
+
+.productname,
+.zipcode,
+.phone{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+
+
+.submit {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
